@@ -1,0 +1,1 @@
+python src/train.py --pkl_path preprocess/pkl/ --job_tag sample --config olivetti.conf --epochs 100 --batch_size 1 --max_batch_size 8 --device cuda:0 --lr  0.0010121229826473416 --eval_test --hidden_dim 85 --num_gcn 3 --bigcn --head_tail_layers 1 --fc_out_layer 4 --dropout_out 0.4600326164686185 --edge_emb_dim 3 --dist_emb_max 1 --dist_emb_dim 3 --d_max 4 --from_empty

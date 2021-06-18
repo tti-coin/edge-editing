@@ -1,0 +1,6 @@
+[submodule "src/mylib"]
+	path = src/mylib
+	url = git@github.com:bowdbeg/mylib.git
+[submodule "annotated-materials-syntheses"]
+	path = annotated-materials-syntheses
+	url = git@github.com:olivettigroup/annotated-materials-syntheses.git
