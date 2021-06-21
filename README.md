@@ -1,7 +1,7 @@
 # edge-editing
 The source code for "A Neural Edge-Editing Approach for Document-Level Relation Graph Extraction" in Findings of ACL-IJCNLP 2021
 
-Please refer to our [paper]() for details.
+Please refer to our [paper](https://arxiv.org/abs/2106.09900) for details.
 
 ## Citation
 
