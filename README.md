@@ -8,15 +8,19 @@ Please refer to our [paper](https://arxiv.org/abs/2106.09900) for details.
 When you utilize our code, cite our paper.
 
 ```bibtex
-@inproceedings{makino-2021-edge-editing,
+@inproceedings{makino-etal-2021-neural,
     title = "A Neural Edge-Editing Approach for Document-Level Relation Graph Extraction",
-    author = "Makino, Kohei and Miwa, Makoto and Sasaki, Yutaka",
+    author = "Makino, Kohei  and
+      Miwa, Makoto  and
+      Sasaki, Yutaka",
     booktitle = "Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021",
     month = aug,
     year = "2021",
     address = "Online",
     publisher = "Association for Computational Linguistics",
-    abstract = "In this paper, we propose a novel edge-editing approach to extract relation information from a document. We treat the relations in a document as a relation graph among entities in this approach. The relation graph is iteratively constructed by editing edges of an initial graph, which might be a graph extracted by another system or an empty graph. The way to edit edges is to classify them in a close-first manner using the document and temporally-constructed graph information; each edge is represented with a document context information by a pretrained transformer model and a graph context information by a graph convolutional neural network model. We evaluate our approach on the task to extract material synthesis procedures from materials science texts. The experimental results show the effectiveness of our approach in editing the graphs initialized by our in-house rule-based system and empty graphs.",
+    url = "https://aclanthology.org/2021.findings-acl.234",
+    doi = "10.18653/v1/2021.findings-acl.234",
+    pages = "2653--2662",
 }
 ```
 
